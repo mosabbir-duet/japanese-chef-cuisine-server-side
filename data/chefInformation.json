@@ -1,0 +1,350 @@
+[
+  {
+    "id": 1,
+    "name": "Takeshi Kishimoto",
+    "image": "https://img.freepik.com/premium-photo/asian-male-chef-yellow_296537-1153.jpg",
+    "likes": 1200,
+    "description": "Takeshi Kishimoto is a master sushi chef with over 20 years of experience.",
+    "experience": 20,
+    "recipes": [
+      {
+        "name": "Tuna Sushi",
+        "ingredients": ["sushi rice", "tuna", "wasabi", "soy sauce", "nori"],
+        "cooking_method": [
+          "Cook sushi rice according to package directions",
+          "Slice tuna into thin pieces",
+          "Place tuna on top of the rice",
+          "Add a small amount of wasabi on top of the tuna",
+          "Wrap the sushi with a strip of nori",
+          "Serve with soy sauce"
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Tempura Shrimp",
+        "ingredients": [
+          "shrimp",
+          "tempura batter",
+          "vegetable oil",
+          "soy sauce",
+          "daikon radish"
+        ],
+        "cooking_method": [
+          "Peel and devein the shrimp",
+          "Dip the shrimp in tempura batter",
+          "Fry in hot oil until golden brown",
+          "Serve with soy sauce and grated daikon radish"
+        ],
+        "rating": 4.0
+      },
+      {
+        "name": "Miso Soup",
+        "ingredients": ["dashi", "miso paste", "tofu", "wakame", "scallions"],
+        "cooking_method": [
+          "Bring dashi to a boil in a pot",
+          "Add miso paste and stir until dissolved",
+          "Add cubed tofu and wakame seaweed",
+          "Garnish with chopped scallions",
+          "Serve hot"
+        ],
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hiro Nakamura",
+    "image": "https://storage.prompt-hunt.workers.dev/clfsaakba000hla08dp350y4l_1",
+    "likes": 1500,
+    "description": "Chef Hiro Nakamura is a master of Japanese cuisine with over 20 years of experience. He has worked in several Michelin-starred restaurants in Japan and Europe, and is known for his innovative take on traditional dishes.",
+    "experiences": 20,
+    "num_of_recipes": 3,
+    "recipes": [
+      {
+        "recipe_name": "Sushi Rolls",
+        "ingredients": [
+          "Sushi rice",
+          "Nori seaweed",
+          "Fresh sashimi",
+          "Cucumber",
+          "Avocado"
+        ],
+        "cooking_method": [
+          "Cook sushi rice according to package instructions",
+          "Lay a sheet of nori seaweed on a sushi mat",
+          "Spread a layer of sushi rice on top of the nori seaweed",
+          "Add slices of sashimi, cucumber, and avocado",
+          "Roll the sushi tightly using the mat",
+          "Slice the sushi roll into bite-sized pieces"
+        ],
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Miso Soup",
+        "ingredients": [
+          "Dashi stock",
+          "Miso paste",
+          "Tofu",
+          "Wakame seaweed",
+          "Green onions"
+        ],
+        "cooking_method": [
+          "Bring dashi stock to a simmer in a pot",
+          "Add miso paste and stir until dissolved",
+          "Add cubed tofu and wakame seaweed",
+          "Simmer for a few minutes until heated through",
+          "Garnish with chopped green onions"
+        ],
+        "rating": 4.2
+      },
+      {
+        "recipe_name": "Beef Teriyaki",
+        "ingredients": ["Beef sirloin", "Soy sauce", "Mirin", "Sake", "Sugar"],
+        "cooking_method": [
+          "Marinate beef sirloin in soy sauce, mirin, sake, and sugar for 30 minutes",
+          "Heat a pan over high heat and sear the beef on both sides",
+          "Lower heat to medium and continue to cook until desired doneness",
+          "Brush beef with extra teriyaki sauce before serving"
+        ],
+        "rating": 4.7
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Yoshio Saito",
+    "image": "https://img.freepik.com/free-photo/front-view-young-female-cook-white-cook-suit-white-cap-smiling-posing-happy_140725-15369.jpg",
+    "likes": 4562,
+    "description": "Yoshio Saito is a renowned Japanese chef with over 20 years of experience in traditional Japanese cuisine.",
+    "experience": 20,
+    "num_recipes": 5,
+    "recipes": [
+      {
+        "name": "Sushi",
+        "ingredients": ["rice", "vinegar", "fish", "nori", "wasabi"],
+        "cooking_method": [
+          "Cook the rice and mix with vinegar",
+          "Cut the fish into slices",
+          "Wrap the rice and fish with nori",
+          "Serve with wasabi"
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Miso Soup",
+        "ingredients": [
+          "miso paste",
+          "tofu",
+          "seaweed",
+          "scallions",
+          "dashi broth"
+        ],
+        "cooking_method": [
+          "Boil the dashi broth",
+          "Add in the miso paste and stir",
+          "Add in the tofu and seaweed",
+          "Serve with scallions"
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Teriyaki Chicken",
+        "ingredients": [
+          "chicken thighs",
+          "soy sauce",
+          "sugar",
+          "mirin",
+          "sesame oil"
+        ],
+        "cooking_method": [
+          "Mix soy sauce, sugar, mirin, and sesame oil",
+          "Marinate chicken in the sauce for 1 hour",
+          "Grill or pan-fry chicken until cooked through",
+          "Serve with extra sauce"
+        ],
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Nobu Matsuhisa",
+    "image": "https://media.istockphoto.com/id/687108030/photo/asian-chef-showing-okay-sign-over-white-background.jpg?s=612x612&w=0&k=20&c=za51LuW8F1RP2nZtV7hgl1LwRHb1qyQPsaUKR9lPip4=",
+    "likes": 5678,
+    "description": "Nobu Matsuhisa is a celebrity chef known for his fusion cuisine of Japanese and South American flavors.",
+    "experience": 30,
+    "num_recipes": 4,
+    "recipes": [
+      {
+        "name": "Black Cod with Miso",
+        "ingredients": ["black cod", "miso paste", "sake", "mirin", "sugar"],
+        "cooking_method": [
+          "Mix the miso paste, sake, mirin, and sugar",
+          "Marinate the black cod in the mixture for 2-3 days",
+          "Grill or broil the fish until the surface is crispy and caramelized",
+          "Serve hot"
+        ],
+        "rating": 4.9
+      },
+      {
+        "name": "Rock Shrimp Tempura",
+        "ingredients": [
+          "rock shrimp",
+          "tempura batter",
+          "soy sauce",
+          "rice vinegar",
+          "honey"
+        ],
+        "cooking_method": [
+          "Mix soy sauce, rice vinegar, and honey",
+          "Coat the rock shrimp with tempura batter",
+          "Deep-fry the shrimp until golden brown",
+          "Toss the shrimp in the sauce",
+          "Serve hot"
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "Wagyu Beef Tataki",
+        "ingredients": [
+          "wagyu beef",
+          "soy sauce",
+          "sesame oil",
+          "garlic",
+          "green onions"
+        ],
+        "cooking_method": [
+          "Sear the wagyu beef on a hot pan for a few seconds on each side",
+          "Slice"
+        ],
+        "rating": 4.6
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Masaharu Morimoto",
+    "image": "https://st.depositphotos.com/1372245/4011/i/600/depositphotos_40113535-stock-photo-japanese-chef-preparing-a-meal.jpg",
+    "likes": 1500,
+    "description": "Masaharu Morimoto is a Japanese chef, best known for his appearances on the Japanese television show Iron Chef and its spinoff Iron Chef America. He is also the author of several cookbooks and has several restaurants around the world.",
+    "experience_years": 35,
+    "recipes": [
+      {
+        "recipe_name": "Sushi",
+        "ingredients": [
+          "Sushi rice",
+          "Nori",
+          "Fresh fish",
+          "Soy sauce",
+          "Wasabi"
+        ],
+        "cooking_method": [
+          "Cook the rice in a rice cooker or on the stove",
+          "Lay out the nori on a sushi mat",
+          "Spread the rice on the nori",
+          "Add the fresh fish on top of the rice",
+          "Roll the sushi using the mat",
+          "Serve with soy sauce and wasabi"
+        ],
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Ramen",
+        "ingredients": [
+          "Ramen noodles",
+          "Pork broth",
+          "Pork belly",
+          "Egg",
+          "Green onions"
+        ],
+        "cooking_method": [
+          "Boil the noodles in a separate pot",
+          "Heat up the pork broth in a separate pot",
+          "Cook the pork belly until crispy",
+          "Boil an egg to your liking",
+          "Add the noodles to the broth",
+          "Top with pork belly, egg, and green onions"
+        ],
+        "rating": 4.2
+      },
+      {
+        "recipe_name": "Yakitori",
+        "ingredients": [
+          "Chicken thighs",
+          "Soy sauce",
+          "Sake",
+          "Mirin",
+          "Green onions"
+        ],
+        "cooking_method": [
+          "Cut the chicken into bite-sized pieces",
+          "Skewer the chicken pieces",
+          "Mix together soy sauce, sake, and mirin",
+          "Grill the chicken skewers while brushing with the sauce",
+          "Top with chopped green onions"
+        ],
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Takashi Miyazaki",
+    "image": "https://img.freepik.com/premium-photo/young-chinese-chef-woman-isolated-feels-proud-self-confident-example-follow_1187-121790.jpg",
+    "likes": 1200,
+    "description": "Chef Takashi Miyazaki is the owner of Miyazaki restaurant in Cork, Ireland. He has over 20 years of experience in Japanese cuisine.",
+    "experience": 20,
+    "recipes": [
+      {
+        "name": "Tonkotsu Ramen",
+        "ingredients": [
+          "Pork bones",
+          "Water",
+          "Green onions",
+          "Ginger",
+          "Garlic"
+        ],
+        "cooking_method": [
+          "Boil pork bones and water for several hours",
+          "Add green onions, ginger, and garlic",
+          "Simmer for another hour",
+          "Strain the broth",
+          "Cook the noodles and add toppings"
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Chirashi Sushi",
+        "ingredients": [
+          "Sushi rice",
+          "Assorted fish",
+          "Egg",
+          "Shiitake mushrooms",
+          "Pickled daikon"
+        ],
+        "cooking_method": [
+          "Prepare sushi rice",
+          "Slice fish into thin pieces",
+          "Cook egg and shiitake mushrooms",
+          "Arrange ingredients on top of sushi rice",
+          "Serve with pickled daikon"
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Okonomiyaki",
+        "ingredients": ["Flour", "Water", "Cabbage", "Bacon", "Sauce"],
+        "cooking_method": [
+          "Mix flour and water to make batter",
+          "Add chopped cabbage and bacon",
+          "Cook on a hot plate",
+          "Flip the okonomiyaki",
+          "Top with sauce and mayonnaise"
+        ],
+        "rating": 4.2
+      }
+    ]
+  }
+]
