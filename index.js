@@ -11,8 +11,18 @@ app.get('/',(req, res) => {
     res.send('Japanese Chef cuisine app is running.')
 })
 
+
+
 app.get('/chefInformation', (req, res) => {
     res.send(chefInformation)
+})
+
+app.get('/chefInformation/:id',(req, res) => {
+    const id = req.params.id;
+    console.log(id)
+    const info = chefInformation.find(info => info.id == id)
+    res.send(info)
+    
 })
 
 app.listen(port, () => {
